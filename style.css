@@ -269,6 +269,7 @@ body{
     font-size: 14px;
 }
 
+
 .reaction-wrapper{
     width: 100%;
     height: 50px;
@@ -296,8 +297,13 @@ body{
     text-transform: capitalize;
     font-size: 16px;
     color: rgba(0,162,255);
-    opacity: 0.5;
+    opacity: 0.3;
     cursor: pointer;
+    transition: all ease .5s;
+}
+
+.comment-wrapper:hover .comment-btn{
+    opacity: 1;
 }
 
 .right-col{
@@ -352,10 +358,18 @@ body{
 }
 
 .action-btn{
-    opacity: 1;
-    font-weight: 700;
+    opacity: .5;
+    font-weight: 500;
     font-size: 12px;
     margin-left: 50px;  /*NEED TO MODIFY*/
+    transition: all ease .5s;
+    text-transform: lowercase;
+}
+
+.profile-card:hover .action-btn{
+    opacity: 1;
+    font-weight: 700;
+    /* background-color: red; */
 }
 
 .suggestion-text{
