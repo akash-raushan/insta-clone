@@ -160,7 +160,6 @@ body{
     border-radius: 50%;
     border: 2px solid #fff;
 }
-
 .username{
     width: auto;
     overflow: hidden;
@@ -339,11 +338,17 @@ body{
 .suggestion-info{
     margin: 10px;
 }
+
 .sub-text{
     color: rgba(0,0,0,0.5);
     font-size: 12px;
     font-weight: 500;
     margin-top: 5px;
+}
+
+.profile-card a{
+    text-decoration: none;
+    color: #000 !important;
 }
 
 .action-btn{
@@ -385,6 +390,7 @@ body{
         margin-top: 30px;
         margin-left: -10px;
         margin-right: 0px;
+        width: 105%;
     }
     .post{
         margin-top: 20px;
@@ -438,5 +444,14 @@ body{
     }
     .nav-items-900{
         margin-left: 30%;
+        
+    }
+}
+
+@media (max-width:350px) {
+    .nav-items-900 .icon{
+        width: 15px;
+        padding-right: -10px;
+        margin-left: -5px;
     }
 }
